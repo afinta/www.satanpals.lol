@@ -1,0 +1,298 @@
+body {
+	margin:0;
+	height:100%;
+	padding:0;
+	}
+	
+html{
+	height:100%
+	}
+
+#bg {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	}
+
+#principal {
+	width:1000px;
+	height:1150px;
+	overflow:hidden;
+	margin:0px auto;
+	background-color:transparent;
+	position:relative;
+	z-index:1;
+	}
+	
+#header {
+	margin:0px auto;
+	display:table;
+	}
+	
+#centro {
+	height:919px;
+	overflow:hidden;
+	}
+
+#derecha {
+	width:200px;
+	float:right;
+	opacity:0.9;
+	}
+	
+#footer {
+	border:solid 2px;
+	clear:both;
+	text-align:center;
+	color:white;
+	}
+	
+#izquierda{
+	width:150px;
+	border:1px solid;
+	float:left;
+	border-radius:0px 0px 20px 20px;
+	box-shadow: 10px 10px 20px #006633;
+	text-shadow: 2px 1px #787878;
+	font-family:myFont;
+	
+	}
+	
+#izquierda #list{
+	background-image: linear-gradient(bottom, rgb(3,23,1) 14%, rgb(27,94,10) 57%);
+	background-image: -o-linear-gradient(bottom, rgb(3,23,1) 14%, rgb(27,94,10) 57%);
+	background-image: -moz-linear-gradient(bottom, rgb(3,23,1) 14%, rgb(27,94,10) 57%);
+	background-image: -webkit-linear-gradient(bottom, rgb(3,23,1) 14%, rgb(27,94,10) 57%);
+	background-image: -ms-linear-gradient(bottom, rgb(3,23,1) 14%, rgb(27,94,10) 57%);
+
+	background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.14, rgb(3,23,1)),
+	color-stop(0.57, rgb(27,94,10)))
+}
+	
+@font-face{
+font-family: myFont;
+src: url('http://www.w3schools.com/css3/Sansation_Light.ttf')
+}
+	
+#izquierda ul{
+	list-style-type:none;
+	padding:0px;
+	}
+	
+#izquierda ul .dd ul{
+	height:0px;
+	opacity:0;
+}
+
+#izquierda ul .dd ul li{
+	height:auto;
+}
+
+#izquierda ul .dd{
+	height:20px;
+}
+
+/*#izquierda ul .dd:hover  ul{
+	opacity:1;
+	transition: opacity 2s;
+}
+
+#izquierda ul .dd:hover{
+	height:120px;
+	transition: height 1s;
+}*/
+	
+#izquierda h2{
+	background-color:#0F0;
+	margin:0px auto;
+	text-align:center;
+	}
+	
+#izquierda li{
+	border:1px solid;
+	padding-left:10px;
+	margin-top:15px;
+	text-align:center;
+	}
+	
+#izquierda li:nth-child(2n){
+	background-color:#090;
+	}
+	
+#izquierda li:nth-child(2n+1){
+	background-color:#0C0;
+	}
+#izquierda a{
+	display:block;
+	color:black
+	}
+
+#izquierda .link:hover{
+	background-color:#06F;
+	}
+section{
+	background-color:#000;
+	color:#FFF;
+	display:block;
+	}
+	
+/*td{
+	display:block;
+	width:640px;
+	}*/
+
+.tbimg{
+	border:solid grey 2px;
+	width:640px;
+	}
+	
+#pro{
+	color:#093;
+	}
+#pro ul{
+	list-style:circle;
+	}
+#pro h2{
+	font-style:italic;
+	}
+/*bullet list os links color*/
+#pro a{
+	color:white;
+	}
+#ctext{
+	color:white;
+	}
+#form{
+	color:white;
+	}
+#mes{
+	height:150px;
+	width:400px;
+	}
+.in{
+	width:200px;
+	}
+#send{
+	left:110px;
+	top:50px;
+	position:relative;
+	height:60px;
+	width:100px;
+	}
+#gmap{
+	position:relative;
+	top:70px;
+	}
+	
+/*.tbimg{
+	border:hidden;
+	}*/
+	
+#centro .img img{
+	display:inline;
+	margin:3px;
+	border:1px solid white;
+	height:100px;
+	width:100px;
+	}
+	
+#centro .img a:hover img{
+	border: 1px solid #0000ff;
+	}
+	
+#centro .desc{
+    text-align: center;
+	font-weight: normal;
+	width: 120px;
+	margin: 2px;
+	color:white;
+	}
+	
+#centro .img{
+	width:120px;
+	}
+	
+#img2{
+	position:absolute;
+	left:300px;
+	top:206px;
+	}
+
+#img3{
+	position:absolute;
+	left:150px;
+	top:456px;
+	}
+
+#img4{
+	position:absolute;
+	left:300px;
+	top:456px;
+	}
+
+#img5{
+	position:absolute;
+	left:450px;
+	top:456px;
+	}
+
+.hiddenL .link{
+	top: 20px;
+}
+
+#carrito{
+	margin:0px auto;
+	margin-top: 50px;
+	font-family: myFont;
+}
+
+#loginButton{
+	font-family: myFont;
+	position: absolute;
+	top: -15px;
+	right: 4px;
+	color: white;
+	opacity: 0;
+}
+
+#loginButton span{
+	cursor: pointer;
+}
+
+#login{
+	position: absolute;
+	top: 30px;
+	right: 4px;
+	color: black;
+	background-color: white;
+	padding: 20px;
+	border-radius: 20px 20px 20px 20px;
+	opacity: 0;
+	z-index: 2;
+	width: 150px;
+}
+
+#login input[type="button"]{
+	position: relative;
+	right: 0px;
+}
+
+#login input{
+	width:100px;
+}
+
+.buyButton{
+	opacity: 0;
+}
+
+#registerForm{
+	/*border:1px solid white;*/
+	margin-left: 30px;
+	margin-top: 50px;
+}
